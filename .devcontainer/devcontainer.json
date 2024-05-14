@@ -1,7 +1,35 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mads-hartmann.bash-ide-vscode",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "DavidAnson.vscode-markdownlint",
+        "formulahendry.code-runner",
+        "vscjava.vscode-java-pack",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "redhat.java",
+        "eamodio.gitlens",
+        "ritwickdey.LiveServer",
+        "PKief.material-icon-theme",
+        "vmware.vscode-boot-dev-pack",
+        "mtxr.sqltools",
+        "ChakrounAnas.turbo-console-log",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  },
   "features": {
-    "ghcr.io/devcontainers-contrib/features/mysql-homebrew:1": {},
-    "ghcr.io/devcontainers-contrib/features/redis-homebrew:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1.0.11": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2.11.0": {},
+    "ghcr.io/devcontainers/features/common-utils:2.4.3": {},
+    "ghcr.io/lukewiwa/features/shellcheck:0.2.3": {},
+    "ghcr.io/itsmechlark/features/redis-server:1.1.0": {},
+    "ghcr.io/devcontainers-contrib/features/jmc-sdkman:2": {
+      "jdkVersion": 17
+    }
   }
 }
