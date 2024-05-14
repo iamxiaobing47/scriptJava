@@ -28,8 +28,6 @@
     "ghcr.io/devcontainers/features/common-utils:2.4.3": {},
     "ghcr.io/lukewiwa/features/shellcheck:0.2.3": {},
     "ghcr.io/itsmechlark/features/redis-server:1.1.0": {},
-    "ghcr.io/devcontainers-contrib/features/jmc-sdkman:2": {
-      "jdkVersion": 17
-    }
+    "ghcr.io/devcontainers-contrib/features/jmc-sdkman:2.0.14": {}
   }
 }
